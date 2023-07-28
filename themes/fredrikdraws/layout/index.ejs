@@ -1,0 +1,26 @@
+<%- partial('_partial/head') %>
+
+<% let my_max = page.posts.length %>
+<% let my_cur = 0 %>
+
+<h1>Articles</h1>
+<p>Some articles published with extreme variation in frequency.</p>
+
+<ul class="fp">
+<% page.posts.each(function(post) { %>
+  <% my_cur++ %>
+  <%- partial('_partial/fp-article', {post: post, index: true}) %>
+<% }) %>
+</ul>
+
+<% if (page.total > 1){ %>
+<div id="cw-nav-bottom">
+  <% if (page.next > 0) { %>
+  <a class="big-butt right" href="<%= page.next_link %>">Older →</a>
+  <% } %>
+  <% if (page.prev > 0) { %>
+  <a class="big-butt left" href="<%= page.prev_link %>">← Newer</a>
+  <% } %>
+</div>
+<% } %>
+<%- partial('_partial/footer') %>

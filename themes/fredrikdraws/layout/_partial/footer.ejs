@@ -1,0 +1,19 @@
+    <footer>
+      <ul>
+        <li><a href="https://www.instagram.com/fredrikdraws">Instagram</a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100094538247501">Facebook</a></li>
+        <li><a href="https://twitter.com/fredrikdraws">Twitter</a></li>
+      </ul>
+    </footer>
+  </body>
+  <script> 
+
+    const totPosts = <%= site.posts.length %>;
+
+    function randomPost() {
+      let randPost = Math.floor(Math.random() * totPosts) + 1;
+      return '/comic/' + randPost.toString().padStart(3, '0') + '/';
+    }
+
+  </script>
+</html>

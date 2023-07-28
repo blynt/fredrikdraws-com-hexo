@@ -1,0 +1,7 @@
+<%- partial('_partial/head') %>
+  <h1><%= page.title %></h1>
+  <p>
+    Published: <span class="pubdate"><%= date(page.date) %></span><br/>
+  </p>
+  <%- page.content %>
+<%- partial('_partial/footer') %>

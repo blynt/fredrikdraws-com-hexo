@@ -1,0 +1,14 @@
+<li>
+  <a href="/<%= post.path %>"><%= post.title %></a>
+  <% if (post.tags && post.tags.length) { %>
+   •<span class="tags">
+     <% post.tags.each(function(tag) { %>
+       <a href="/<%= tag.path %>"><%= tag.name %></a>
+     <% }) %>
+     </span>
+  <% } %>
+  <br/>Published: <span class="pubdate"><%= date(post.date) %></span>
+  <% if (post.hasOwnProperty('update')) { %>
+  <br/>Updated: <span class="pubdate"><%= date(post.update) %></span>
+  <% } %>
+</li>

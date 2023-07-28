@@ -1,0 +1,34 @@
+<%- partial('_partial/head') %>
+
+<% let first_post = 'comic/001/' %>
+<% let last_post = 'comic/' + site.posts.length.toString().padStart(3, '0') + '/' %>
+
+    <article>
+      <ul>
+        <% if (page.path != first_post) { %>
+          <li><a href="/<%= first_post %>">&lt;&lt;</a></li>
+        <% } else { %>
+          <li><a class="disabled" href="#">&lt;&lt;</a></li>
+        <% } %>
+        <% if (page.next) { %>
+          <li><a href="/<%= page.next.path %>">&lt;</a></li>
+        <% } else { %>
+          <li><a class="disabled" href="#">&lt;</a></li>
+        <% } %>
+        <li><a href="#" onClick="window.location = randomPost(); ">Random</a></li>
+        <% if (page.prev) { %>
+          <li><a href="/<%= page.prev.path %>">&gt;</a></li>
+        <% } else { %>
+          <li><a class="disabled" href="#">&gt;</a></li>
+        <% } %>
+        <% if (page.path != last_post) { %>
+          <li><a href="/<%= last_post %> ">&gt;&gt;</a></li>
+        <% } else { %>
+          <li><a class="disabled" href="#">&gt;&gt;</a></li>
+        <% } %>
+      </ul>
+      <h1><%= page.title %></h1>
+      <p>Published: <%= page.date.format('MMMM Do YYYY') %></p>
+      <%- page.content %>
+    </article>
+<%- partial('_partial/footer') %>
