@@ -1,26 +1,30 @@
 <%- partial('_partial/head') %>
 
-<% let my_max = page.posts.length %>
-<% let my_cur = 0 %>
+<% let first_post = 'comic/001/' %>
+<% let last_post = 'comic/' + page.posts.length.toString().padStart(3, '0') + '/' %>
 
-<h1>Articles</h1>
-<p>Some articles published with extreme variation in frequency.</p>
-
-<ul class="fp">
 <% page.posts.each(function(post) { %>
-  <% my_cur++ %>
-  <%- partial('_partial/fp-article', {post: post, index: true}) %>
-<% }) %>
-</ul>
 
-<% if (page.total > 1){ %>
-<div id="cw-nav-bottom">
-  <% if (page.next > 0) { %>
-  <a class="big-butt right" href="<%= page.next_link %>">Older →</a>
-  <% } %>
-  <% if (page.prev > 0) { %>
-  <a class="big-butt left" href="<%= page.prev_link %>">← Newer</a>
-  <% } %>
-</div>
-<% } %>
+    <article>
+      <ul>
+        <% if (post.path != first_post) { %>
+          <li><a href="/<%= first_post %>">&lt;&lt;</a></li>
+        <% } else { %>
+          <li><a class="disabled" href="#">&lt;&lt;</a></li>
+        <% } %>
+        <% if (post.next) { %>
+          <li><a href="/<%= post.next.path %>">&lt;</a></li>
+        <% } else { %>
+          <li><a class="disabled" href="#">&lt;</a></li>
+        <% } %>
+        <li><a href="#" onClick="window.location = randomPost(); ">Random</a></li>
+        <li><a class="disabled" href="#">&gt;</a></li>
+        <li><a class="disabled" href="#">&gt;&gt;</a></li>
+      </ul>
+      <h1><%= post.title %></h1>
+      <p>Published: <%= post.date.format('MMMM Do YYYY') %></p>
+      <%- post.content %>
+    </article>
+
+<% }) %>
 <%- partial('_partial/footer') %>
