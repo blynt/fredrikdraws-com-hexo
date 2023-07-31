@@ -27,8 +27,8 @@
           <li><a class="disabled" href="#">&gt;&gt;</a></li>
         <% } %>
       </ul>
+      <%- page.content %>
       <h1><%= page.title %></h1>
       <p>Published: <%= page.date.format('MMMM Do YYYY') %></p>
-      <%- page.content %>
     </article>
 <%- partial('_partial/footer') %>

@@ -21,9 +21,9 @@
         <li><a class="disabled" href="#">&gt;</a></li>
         <li><a class="disabled" href="#">&gt;&gt;</a></li>
       </ul>
+      <%- post.content %>
       <h1><%= post.title %></h1>
       <p>Published: <%= post.date.format('MMMM Do YYYY') %></p>
-      <%- post.content %>
     </article>
 
 <% }) %>
