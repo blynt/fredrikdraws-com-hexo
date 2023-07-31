@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://www.fredrikdraws.com</id>
+    <title>Fredrik Draws</title>
+    <link href="http://www.fredrikdraws.com" />
+    <updated>2023-07-30T22:00:00.000Z</updated>
+    <entry>
+        <id>http://www.fredrikdraws.com/comic/009/</id>
+        <title>Flying Coach</title>
+        <link rel="alternate" href="http://www.fredrikdraws.com/comic/009/"/>
+        <content type="html">&lt;img src=&#34;/images/drawing-009.webp&#34; alt=&#34;Flying Coach&#34; width=&#34;1080&#34; height=&#34;1080&#34; /&gt;
+</content>
+        <updated>2023-07-30T22:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://www.fredrikdraws.com/comic/008/</id>
+        <title>Fly Like The Birds</title>
+        <link rel="alternate" href="http://www.fredrikdraws.com/comic/008/"/>
+        <content type="html">&lt;img src=&#34;/images/drawing-008.webp&#34; alt=&#34;Fly Like The Birds&#34; width=&#34;1080&#34; height=&#34;1080&#34; /&gt;
+</content>
+        <updated>2023-07-25T22:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://www.fredrikdraws.com/comic/007/</id>
+        <title>Coffee!!</title>
+        <link rel="alternate" href="http://www.fredrikdraws.com/comic/007/"/>
+        <content type="html">&lt;img src=&#34;/images/drawing-007.webp&#34; alt=&#34;Coffee!!&#34; width=&#34;1080&#34; height=&#34;1080&#34; /&gt;
+</content>
+        <updated>2023-07-22T22:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://www.fredrikdraws.com/comic/006/</id>
+        <title>Digital Assistant</title>
+        <link rel="alternate" href="http://www.fredrikdraws.com/comic/006/"/>
+        <content type="html">&lt;img src=&#34;/images/drawing-006.webp&#34; alt=&#34;Digital Assistant&#34; width=&#34;1080&#34; height=&#34;1080&#34; /&gt;
+</content>
+        <updated>2023-07-18T22:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://www.fredrikdraws.com/comic/005/</id>
+        <title>Respect</title>
+        <link rel="alternate" href="http://www.fredrikdraws.com/comic/005/"/>
+        <content type="html">&lt;img src=&#34;/images/drawing-005-1.webp&#34; alt=&#34;Respect&#34; width=&#34;1080&#34; height=&#34;1080&#34; /&gt;
+&lt;img src=&#34;/images/drawing-005-2.webp&#34; alt=&#34;Respect&#34; width=&#34;1080&#34; height=&#34;1080&#34; /&gt;
+</content>
+        <updated>2023-07-16T22:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://www.fredrikdraws.com/comic/004/</id>
+        <title>Decay</title>
+        <link rel="alternate" href="http://www.fredrikdraws.com/comic/004/"/>
+        <content type="html">&lt;img src=&#34;/images/drawing-004.webp&#34; alt=&#34;Decay&#34; width=&#34;1080&#34; height=&#34;1080&#34; /&gt;
+</content>
+        <updated>2023-07-14T22:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://www.fredrikdraws.com/comic/003/</id>
+        <title>Vacation</title>
+        <link rel="alternate" href="http://www.fredrikdraws.com/comic/003/"/>
+        <content type="html">&lt;img src=&#34;/images/drawing-003.webp&#34; alt=&#34;Vacation&#34; width=&#34;1080&#34; height=&#34;1080&#34; /&gt;
+</content>
+        <updated>2023-07-13T22:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://www.fredrikdraws.com/comic/002/</id>
+        <title>Crime Scene Investigator</title>
+        <link rel="alternate" href="http://www.fredrikdraws.com/comic/002/"/>
+        <content type="html">&lt;img src=&#34;/images/drawing-002-1.webp&#34; alt=&#34;Crime Scene Investiagor&#34; width=&#34;1080&#34; height=&#34;1080&#34; /&gt;
+&lt;img src=&#34;/images/drawing-002-2.webp&#34; alt=&#34;Crime Scene Investiagor&#34; width=&#34;1080&#34; height=&#34;1080&#34; /&gt;
+</content>
+        <updated>2023-07-09T22:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://www.fredrikdraws.com/comic/001/</id>
+        <title>Freedoms</title>
+        <link rel="alternate" href="http://www.fredrikdraws.com/comic/001/"/>
+        <content type="html">&lt;img src=&#34;/images/drawing-001.webp&#34; alt=&#34;Freedoms&#34; width=&#34;1080&#34; height=&#34;1080&#34; /&gt;
+</content>
+        <updated>2023-07-06T22:00:00.000Z</updated>
+    </entry>
+</feed>

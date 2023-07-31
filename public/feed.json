@@ -1,0 +1,80 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Fredrik Draws",
+    "description": "",
+    "home_page_url": "http://www.fredrikdraws.com",
+    "items": [
+        {
+            "id": "http://www.fredrikdraws.com/comic/009/",
+            "url": "http://www.fredrikdraws.com/comic/009/",
+            "title": "Flying Coach",
+            "date_published": "2023-07-30T22:00:00.000Z",
+            "content_html": "<img src=\"/images/drawing-009.webp\" alt=\"Flying Coach\" width=\"1080\" height=\"1080\" />\n",
+            "tags": []
+        },
+        {
+            "id": "http://www.fredrikdraws.com/comic/008/",
+            "url": "http://www.fredrikdraws.com/comic/008/",
+            "title": "Fly Like The Birds",
+            "date_published": "2023-07-25T22:00:00.000Z",
+            "content_html": "<img src=\"/images/drawing-008.webp\" alt=\"Fly Like The Birds\" width=\"1080\" height=\"1080\" />\n",
+            "tags": []
+        },
+        {
+            "id": "http://www.fredrikdraws.com/comic/007/",
+            "url": "http://www.fredrikdraws.com/comic/007/",
+            "title": "Coffee!!",
+            "date_published": "2023-07-22T22:00:00.000Z",
+            "content_html": "<img src=\"/images/drawing-007.webp\" alt=\"Coffee!!\" width=\"1080\" height=\"1080\" />\n",
+            "tags": []
+        },
+        {
+            "id": "http://www.fredrikdraws.com/comic/006/",
+            "url": "http://www.fredrikdraws.com/comic/006/",
+            "title": "Digital Assistant",
+            "date_published": "2023-07-18T22:00:00.000Z",
+            "content_html": "<img src=\"/images/drawing-006.webp\" alt=\"Digital Assistant\" width=\"1080\" height=\"1080\" />\n",
+            "tags": []
+        },
+        {
+            "id": "http://www.fredrikdraws.com/comic/005/",
+            "url": "http://www.fredrikdraws.com/comic/005/",
+            "title": "Respect",
+            "date_published": "2023-07-16T22:00:00.000Z",
+            "content_html": "<img src=\"/images/drawing-005-1.webp\" alt=\"Respect\" width=\"1080\" height=\"1080\" />\n<img src=\"/images/drawing-005-2.webp\" alt=\"Respect\" width=\"1080\" height=\"1080\" />\n",
+            "tags": []
+        },
+        {
+            "id": "http://www.fredrikdraws.com/comic/004/",
+            "url": "http://www.fredrikdraws.com/comic/004/",
+            "title": "Decay",
+            "date_published": "2023-07-14T22:00:00.000Z",
+            "content_html": "<img src=\"/images/drawing-004.webp\" alt=\"Decay\" width=\"1080\" height=\"1080\" />\n",
+            "tags": []
+        },
+        {
+            "id": "http://www.fredrikdraws.com/comic/003/",
+            "url": "http://www.fredrikdraws.com/comic/003/",
+            "title": "Vacation",
+            "date_published": "2023-07-13T22:00:00.000Z",
+            "content_html": "<img src=\"/images/drawing-003.webp\" alt=\"Vacation\" width=\"1080\" height=\"1080\" />\n",
+            "tags": []
+        },
+        {
+            "id": "http://www.fredrikdraws.com/comic/002/",
+            "url": "http://www.fredrikdraws.com/comic/002/",
+            "title": "Crime Scene Investigator",
+            "date_published": "2023-07-09T22:00:00.000Z",
+            "content_html": "<img src=\"/images/drawing-002-1.webp\" alt=\"Crime Scene Investiagor\" width=\"1080\" height=\"1080\" />\n<img src=\"/images/drawing-002-2.webp\" alt=\"Crime Scene Investiagor\" width=\"1080\" height=\"1080\" />\n",
+            "tags": []
+        },
+        {
+            "id": "http://www.fredrikdraws.com/comic/001/",
+            "url": "http://www.fredrikdraws.com/comic/001/",
+            "title": "Freedoms",
+            "date_published": "2023-07-06T22:00:00.000Z",
+            "content_html": "<img src=\"/images/drawing-001.webp\" alt=\"Freedoms\" width=\"1080\" height=\"1080\" />\n",
+            "tags": []
+        }
+    ]
+}
